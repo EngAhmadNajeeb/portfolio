@@ -5,7 +5,7 @@ Welcome to my personal portfolio website! 🎯
 Explore my projects, skills, and achievements in software engineering, mobile & web development, and more. Each project reflects my passion for creating high-performance, user-centric applications.
 
 ## 🔗 Live Preview
-[Visit my Portfolio](https://engahmadnajeeb.github.io/portfolio/){:target="_blank"}
+<a href="https://engahmadnajeeb.github.io/portfolio/" target="_blank">Visit my Portfolio</a>
 
 ## 📁 Featured Projects
 - **Premium Clear Aligners**: A web platform automating dental aligner operations, helping doctors manage patient cases, track production, and handle requests efficiently.
