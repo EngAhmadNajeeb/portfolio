@@ -12,6 +12,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    caret-color: transparent;
 }
 
 body {
@@ -64,6 +68,11 @@ body {
     color: var(--secondary-color);
     text-decoration: none;
     font-weight: 500;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    caret-color: transparent;
     transition: color 0.3s ease;
 }
 
