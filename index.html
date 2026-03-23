@@ -3,385 +3,294 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ahmad Najeeb - Software Engineer</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/png" href="Assets/favicon.ico">
-        <title>Eng Ahmad</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet" href="Site.css">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
-            rel='stylesheet'>
     </head>
     <body>
-        <header class="header">
-            <a href="#" class="logo">Portfolio</a>
+        <div class="main-container">
+            <header class="main-header">
+                <div class="logo">
+                    <a href="#">A.N</a>
+                </div>
+                <nav class="main-nav">
+                    <ul class="nav-links">
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#tech-stack">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="hamburger" id="hamburger-menu"
+                    aria-label="Open navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </header>
 
-            <i class='bx bx-menu' id="menu-icon"></i>
+            <main>
+                <section id="hero" class="hero-section">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h1>Ahmed Naguib</h1>
+                            <h2>Senior Software Engineer | Mobile, Backend &
+                                System Architecture</h2>
+                            <p>Results-oriented Software Engineer with over 8
+                                years of experience in designing and delivering
+                                scalable mobile and web applications. Expert in
+                                Flutter development, backend APIs, and system
+                                architecture. Proven track record in the UAE
+                                market, specializing in healthcare and
+                                e-commerce sectors. Highly skilled in deploying
+                                to VPS environments, managing DNS/SSL, and
+                                optimizing production systems for high
+                                performance and maintainability.</p>
+                            <a
+                                href="https.drive.google.com/file/d/1Nky320z9uaEptzzK6o1vYdH9iSY4wkdO/view?usp=sharing"
+                                class="cta-button" target="_blank">Download
+                                CV</a>
+                        </div>
+                        <div class="hero-image-container">
+                            <div class="image-card">
+                                <img src="Assets/111.png" alt="Ahmad Naguib"
+                                    class="profile-picture">
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-            <nav class="navbar">
-                <a href="#home" class="active">Home</a>
-                <a href="#about">About</a>
-                <!-- <a href="#services">Services</a> -->
-                <a href="#portfolio">Projects</a>
-            </nav>
-        </header>
+                <section id="tech-stack" class="tech-stack-section">
+                    <h2>Tech Stack</h2>
+                    <div class="tech-grid">
+                        <div class="tech-card"><span>Flutter</span></div>
+                        <div class="tech-card"><span>Dart</span></div>
+                        <div class="tech-card"><span>Android
+                                (Kotlin/Java)</span></div>
+                        <div class="tech-card"><span>iOS (Swift)</span></div>
+                        <div class="tech-card"><span>PHP</span></div>
+                        <div class="tech-card"><span>Laravel</span></div>
+                        <div class="tech-card"><span>Firebase</span></div>
+                        <div class="tech-card"><span>MySQL</span></div>
+                        <div class="tech-card"><span>Git</span></div>
+                        <div class="tech-card"><span>RESTful APIs</span></div>
+                        <div class="tech-card"><span>CI/CD</span></div>
+                        <div class="tech-card"><span>VPS Deployment</span></div>
+                        <div class="tech-card"><span>Clean
+                                Architecture</span></div>
+                        <div class="tech-card"><span>MVVM</span></div>
+                        <div class="tech-card"><span>SOLID
+                                Principles</span></div>
+                        <div class="tech-card"><span>State
+                                Management</span></div>
+                    </div>
+                </section>
 
-        <section class="home" id="home">
-            <div class="home-img">
-                <img src="Assets/11.png" alt="Ahmad Najeeb">
-            </div>
-            <div class="home-content">
-                <h3>Hi there! I’m</h3>
-                <h1>Ahmad</h1>
-                <h3>and i am a <span class="multiple-text"></span></h3>
-                <p>Welcome to my portfolio website! As a passionate Software
-                    Engineer dedicated to crafting innovative web platforms and
-                    mobile applications.</p>
-                <p>From pixel-perfect designs to automating complex workflows, I
-                    turn ideas into impactful, user-friendly solutions. Let’s
-                    build something extraordinary together!</p>
-                <div class="social-media">
+                <section id="projects" class="projects-section">
+                    <h2>Projects</h2>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <img src="Assets/Premium Portal.png"
+                                alt="Premium Clear Aligners Project">
+                            <div class="project-info">
+                                <h3>Premium Clear Aligners</h3>
+                                <p>A web platform for a dental aligner company
+                                    to manage patient cases, appointments, and
+                                    production.</p>
+                                <div class="project-links">
+                                    <a href="https://premiumaligners.net/" target="_blank" aria-label="Website"><i class="fas fa-globe"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="Assets/Premium Doctor.png"
+                                alt="Premium Doctor Project">
+                            <div class="project-info">
+                                <h3>Premium Doctor App</h3>
+                                <p>A mobile app for doctors to monitor patient
+                                    cases and manage appointments on the go.</p>
+                                <div class="project-links">
+                                    <a href="https://play.google.com/store/apps/details?id=com.premiumaligners.doctor" target="_blank" aria-label="Google Play"><i class="fab fa-google-play"></i></a>
+                                    <a href="https://apps.apple.com/us/app/premium-aligners/id6746139793" target="_blank" aria-label="App Store"><i class="fab fa-apple"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="Assets/Premium patient.png"
+                                alt="Premium Patient Project">
+                            <div class="project-info">
+                                <h3>Premium Patient App</h3>
+                                <p>A mobile app for patients to track their
+                                    aligner wear time and treatment
+                                    progress.</p>
+                                <!-- <div class="project-links">
+                                    <a href="#" target="_blank" aria-label="Google Play"><i class="fab fa-google-play"></i></a>
+                                    <a href="#" target="_blank" aria-label="App Store"><i class="fab fa-apple"></i></a>
+                                    <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="Assets/Imox.png" alt="Imox Project">
+                            <div class="project-info">
+                                <h3>Imox</h3>
+                                <p>A mobile app blending short-form video
+                                    content with e-commerce for an engaging
+                                    social shopping experience.</p>
+                                <div class="project-links">
+                                    <a href="https://play.google.com/store/apps/details?id=com.imox.gmbh&hl=en_US" target="_blank" aria-label="Google Play"><i class="fab fa-google-play"></i></a>
+                                    <a href="https://apps.apple.com/eg/app/imox/id6450317996" target="_blank" aria-label="App Store"><i class="fab fa-apple"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="Assets/Workiom.png" alt="Workiom Project">
+                            <div class="project-info">
+                                <h3>Workiom</h3>
+                                <p>A productivity and team management app
+                                    unifying tasks, data, and workflow
+                                    automation.</p>
+                                <div class="project-links">
+                                    <a href="https://play.google.com/store/apps/details?id=com.Workiom" target="_blank" aria-label="Google Play"><i class="fab fa-google-play"></i></a>
+                                    <a href="https://apps.apple.com/us/app/workiom/id1484794087" target="_blank" aria-label="App Store"><i class="fab fa-apple"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="Assets/agriunion.png"
+                                alt="Agriunions Project">
+                            <div class="project-info">
+                                <h3>Agriunions</h3>
+                                <p>A platform connecting farmers, suppliers, and
+                                    agricultural businesses to streamline
+                                    collaboration.</p>
+                                <div class="project-links">
+                                    <a href="https://play.google.com/store/apps/details?id=com.aramwest.agrihubandroid.production&hl=ar" target="_blank" aria-label="Google Play"><i class="fab fa-google-play"></i></a>
+                                    <a href="https://apps.apple.com/sa/app/%D8%A7%D9%84%D9%85%D9%86%D8%B5%D8%A9-%D8%A7%D9%84%D8%B2%D8%B1%D8%A7%D8%B9%D9%8A%D8%A9/id1445694218" target="_blank" aria-label="App Store"><i class="fab fa-apple"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="Assets/News App.png"
+                                alt="News App Project">
+                            <div class="project-info">
+                                <h3>News App</h3>
+                                <p>A news app delivering top stories from The
+                                    New York Times with offline reading
+                                    capabilities.</p>
+                                <div class="project-links">
+                                    <a href="https://github.com/EngAhmadNajeeb/news_app" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="Assets/Football.png"
+                                alt="Football App Project">
+                            <div class="project-info">
+                                <h3>Football App</h3>
+                                <p>A real-time football app for match schedules,
+                                    live results, and team lineups.</p>
+                                <div class="project-links">
+                                    <a href="https://github.com/EngAhmadNajeeb/football_flutter" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <img src="Assets/Dawam.png" alt="Dawam Project">
+                            <div class="project-info">
+                                <h3>Dawam</h3>
+                                <p>A smart mobile app for tracking daily working
+                                    hours and generating monthly reports.</p>
+                                <div class="project-links">
+                                    <a href="https://github.com/EngAhmadNajeeb/dawam" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experience" class="experience-section">
+                    <h2>Experience</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3>Mobile App Developer | Khlasha</h3>
+                                <p>Architecting and developing a comprehensive
+                                    3-app ecosystem (Client, Provider, and
+                                    Driver) using Flutter, focusing on real-time
+                                    tracking and state management.</p>
+                                <span class="timeline-date">Jan 2026 –
+                                    Present</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3>Software Engineer | Premium Aligners</h3>
+                                <p>Architected a full healthcare web platform,
+                                    developed two Flutter mobile apps (Doctor &
+                                    Patient), built robust RESTful APIs, and
+                                    managed the entire VPS deployment
+                                    lifecycle.</p>
+                                <span class="timeline-date">Mar 2024 – Mar
+                                    2026</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3>Mobile App Developer | DIB GmbH</h3>
+                                <p>Developed a TikTok-inspired e-commerce app
+                                    with high-performance video streaming and
+                                    redesigned business logic for a separate
+                                    platform, improving user interaction by
+                                    40%.</p>
+                                <span class="timeline-date">Jun 2022 – Nov
+                                    2023</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3>Mobile App Developer | Workiom</h3>
+                                <p>Solved complex UI/UX challenges with custom
+                                    Flutter components and optimized app
+                                    performance, significantly reducing load
+                                    times for large datasets.</p>
+                                <span class="timeline-date">Jan 2023 – Jun
+                                    2023</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3>Mobile App Developer | Maxart (formerly
+                                    Idealize)</h3>
+                                <p>Solved difficult problems in a short time,
+                                    improving work completion time by 20%, and
+                                    swiftly transitioned from Android to iOS
+                                    development.</p>
+                                <span class="timeline-date">Jan 2018 – Dec
+                                    2019</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <footer id="contact" class="main-footer">
+                <h2>Contact Me</h2>
+                <p>Feel free to reach out for collaborations or just a friendly
+                    hello!</p>
+                <div class="social-links">
                     <a href="https://www.linkedin.com/in/eng-ahmad-najib"
-                        target="_blank"><i class='bx bxl-linkedin'></i></a>
+                        target="_blank">LinkedIn</a>
                     <a href="https://github.com/EngAhmadNajeeb"
-                        target="_blank"><i class='bx bxl-github'></i></a>
-                    <a href="mailto:ahmad.najeeb89@gmail.com"><i
-                            class='bx bxl-gmail'></i></a>
-                    <a href="tel:+971569716752">
-                        <i class='bx bxs-phone-call'></i></a>
-                    <a href="https://wa.me/971569716752" target="_blank">
-                        <i class='bx bxl-whatsapp'></i></a>
-                    <!-- <a href="https://www.instagram.com/flutter.artist/" target="_blank"><i class='bx bxl-instagram' ></i></a>
-                    <a href="#"><i class='bx bxl-facebook' ></i></a>
-                    <a href="#"><i class='bx bxl-twitter' ></i></a> -->
+                        target="_blank">GitHub</a>
+                    <a href="mailto:ahmad.najeeb89@gmail.com">Email</a>
+                    <a href="tel:+971569716752">Phone</a>
                 </div>
-
-                <a
-                    href="https://drive.google.com/file/d/1Nky320z9uaEptzzK6o1vYdH9iSY4wkdO/view?usp=sharing"
-                    class="btn" target="_blank">Download CV</a>
-                <!-- <button class="btn">Download CV</button> -->
-            </div>
-
-        </section>
-
-        <section class="about" id="about">
-            <!-- <div class="about-img">
-                <img src="Assets/ahmad_ng11.png" alt>
-            </div> -->
-
-            <div class="about-content">
-                <h2 class="heading">About <span>Me</span></h2>
-                <p>With 6+ years of experience delivering high-quality, scalable
-                    applications. Proficient in creating user-friendly,
-                    feature-rich mobile apps across multiple platforms. Skilled
-                    in problem-solving, performance optimization, and enhancing
-                    user experience through advanced technologies. Additionally,
-                    equipped with one year of experience in web applications and
-                    RESTful API development in the UAE, contributing to building
-                    robust, automated platforms for business operations.</p>
-            </div>
-        </section>
-
-        <!-- <section class="services" id="services">
-        <h2 class="heading"><span>Expertise</span></h2>
-
-        <div class="services-container">
-            <div class="services-box">
-                <i class='bx bx-code-alt' ></i>
-                <h3>Flutter Development</h3>
-                <p>I specialize in crafting versatile Flutter apps that seamlessly run on both Android and iOS devices. Delivering consistent performance and stunning user interfaces, I prioritize platform-specific guidelines to ensure a native-like experience.</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-
-            <div class="services-box">
-                <i class='bx bxs-paint' ></i>
-                <h3>Android Development</h3>
-                <p>As a skilled Flutter Developer, I excel in building high-quality Android and iOS apps using Flutter. From integrating APIs to optimizing performance, my expertise empowers me to create innovative solutions for both platforms.</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-
-            <div class="services-box">
-                <i class='bx bx-bar-chart-alt' ></i>
-                <h3>IOS Development</h3>
-                <p>Embracing the challenges of the Apple ecosystem, I develop elegant and efficient iOS applications using Flutter. Staying updated with the latest iOS trends, I ensure each app meets Apple's high standards and delights users worldwide.</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-            <div class="services-box">
-                <i class='bx bxs-paint' ></i>
-                <h3>Android Development</h3>
-                <p>As a skilled Flutter Developer, I excel in building high-quality Android and iOS apps using Flutter. From integrating APIs to optimizing performance, my expertise empowers me to create innovative solutions for both platforms.</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-
-            <div class="services-box">
-                <i class='bx bx-bar-chart-alt' ></i>
-                <h3>IOS Development</h3>
-                <p>Embracing the challenges of the Apple ecosystem, I develop elegant and efficient iOS applications using Flutter. Staying updated with the latest iOS trends, I ensure each app meets Apple's high standards and delights users worldwide.</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
+                <p>&copy; 2026 Ahmed Naguib. All rights reserved.</p>
+            </footer>
         </div>
-    </section> -->
-
-        <section class="portfolio" id="portfolio">
-            <h2 class="heading">Latest <span>Projects</span></h2>
-
-            <div class="portfolio-container">
-                <div class="portfolio-box">
-                    <img src="Assets/Premium Portal.png" alt>
-                    <div class="portfolio-layer">
-                        <h4>Premium Clear Aligners</h4>
-                        <p>Developed a comprehensive web platform to streamline
-                            operations for a dental aligner company — empowering
-                            doctors to efficiently manage patient cases,
-                            schedule appointments,
-                            track production progress, and handle service
-                            requests seamlessly.</p>
-                        <div class="social-media">
-                            <a
-                                href="https://premiumaligners.net/"
-                                target="_blank">
-                                <i class='bx bxs-planet'></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-box">
-                    <img src="Assets/Premium Doctor.png" alt>
-                    <div class="portfolio-layer">
-                        <h4>Premium Doctor</h4>
-                        <p>Designed and developed a dedicated mobile app
-                            enabling doctors to monitor and manage patient cases
-                            on the go.<br> The app provides real-time updates on
-                            treatment progress, allows appointment scheduling,
-                            and supports seamless communication with the clinic
-                            — enhancing efficiency and ensuring better patient
-                            follow-up.</p>
-                        <div class="social-media">
-                            <a
-                                href="https://apps.apple.com/us/app/premium-aligners/id6746139793"
-                                target="_blank">
-                                <i class='bx bxl-apple'></i>
-                            </a>
-                            <a
-                                href="https://play.google.com/store/apps/details?id=com.premiumaligners.doctor"
-                                target="_blank">
-                                <i class='bx bxl-android'></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-box">
-                    <img src="Assets/Premium patient.png" alt>
-                    <div class="portfolio-layer">
-                        <h4>Premium Patient</h4>
-                        <p>Developed a mobile app for patients to track their
-                            aligner wear time, helping doctors monitor treatment
-                            progress remotely.<br>
-                            The app offers start/pause controls, treatment
-                            reminders, and real-time session tracking to improve
-                            adherence and outcomes.</p>
-                        <!-- <p>Designed and developed a patient-facing mobile app
-                            for Premium Clear Aligners, empowering users to
-                            actively track and manage their aligner wear time.
-                            The app enables patients to start, pause, and stop
-                            wear sessions in real-time, helping doctors remotely
-                            monitor treatment adherence and progress. With
-                            intuitive controls and treatment reminders, the app
-                            improves patient engagement and supports better
-                            clinical outcomes — making it easier for users to
-                            stay on track and achieve optimal results.</p> -->
-                        <div class="social-media">
-                            <!-- <a
-                                href="https://apps.apple.com/us/app/premium-aligners/id6746139793"
-                                target="_blank">
-                                <i class='bx bxl-apple'></i>
-                            </a> -->
-                            <!-- <a
-                                href="https://play.google.com/store/apps/details?id=com.imox.gmbh&hl=en_US"
-                                target="_blank">
-                                <i class='bx bxl-android'></i>
-                            </a> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-box">
-                    <img src="Assets/Imox.png" alt>
-                    <div class="portfolio-layer">
-                        <h4>Imox</h4>
-                        <p>Developed a mobile app that blends short-form video
-                            content with e-commerce, allowing users to discover
-                            and purchase products through interactive video
-                            reels — turning shopping into an engaging social
-                            experience.</p>
-                        <!-- <p>iMOX merges social media entertainment with seamless
-                            e-commerce, creating an immersive mobile experience.
-                            The app lets users explore products, services, and
-                            experiences through dynamic, short video reels —
-                            enabling instant engagement with sellers and one-tap
-                            actions to purchase or connect. It transforms
-                            traditional online shopping into an interactive,
-                            content-driven journey.</p> -->
-                        <div class="social-media">
-                            <a
-                                href="https://apps.apple.com/eg/app/imox/id6450317996"
-                                target="_blank">
-                                <i class='bx bxl-apple'></i>
-                            </a>
-                            <a
-                                href="https://play.google.com/store/apps/details?id=com.imox.gmbh&hl=en_US"
-                                target="_blank">
-                                <i class='bx bxl-android'></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-box">
-                    <img src="Assets/Workiom.png" alt>
-                    <div class="portfolio-layer">
-                        <h4>Workiom</h4>
-                        <p>
-                            Contributed to a productivity and team management
-                            app
-                            that unifies tasks, data, and workflow automation —
-                            helping teams collaborate efficiently and stay
-                            organized anywhere.
-                        </p>
-                        <!-- <p>A versatile productivity and team management app
-                            designed to optimize collaboration and streamline
-                            daily operations. Workiom combines task management,
-                            data organization, and workflow automation — all in
-                            one powerful, user-friendly platform, helping teams
-                            stay organized and productive from anywhere.</p> -->
-                        <div class="social-media">
-                            <a
-                                href="https://apps.apple.com/us/app/workiom/id1484794087"
-                                target="_blank">
-                                <i class='bx bxl-apple'></i>
-                            </a>
-                            <a
-                                href="https://play.google.com/store/apps/details?id=com.Workiom"
-                                target="_blank">
-                                <i class='bx bxl-android'></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-box">
-                    <img src="Assets/agriunion.png" alt>
-                    <div class="portfolio-layer">
-                        <h4>Agriunions</h4>
-                        <p>Built a specialized platform connecting farmers,
-                            suppliers, and agricultural businesses to
-                            communicate, trade, and share knowledge —
-                            streamlining collaboration across the agricultural
-                            supply chain.</p>
-                        <!-- <p>A specialized platform designed to empower farmers,
-                            suppliers, and agricultural businesses. Agriunions
-                            facilitates seamless communication, trade, and
-                            knowledge sharing — enabling users to connect,
-                            collaborate, and grow their networks within the
-                            agriculture industry. With an intuitive interface
-                            and powerful features, the app drives productivity
-                            and fosters stronger business relationships across
-                            the agricultural supply chain.</p> -->
-                        <div class="social-media">
-                            <a
-                                href="https://apps.apple.com/sa/app/%D8%A7%D9%84%D9%85%D9%86%D8%B5%D8%A9-%D8%A7%D9%84%D8%B2%D8%B1%D8%A7%D8%B9%D9%8A%D8%A9/id1445694218"
-                                target="_blank">
-                                <i class='bx bxl-apple'></i>
-                            </a>
-                            <a
-                                href="https://play.google.com/store/apps/details?id=com.aramwest.agrihubandroid.production&hl=en_US"
-                                target="_blank">
-                                <i class='bx bxl-android'></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-box">
-                    <img src="Assets/News App.png" alt>
-                    <div class="portfolio-layer">
-                        <h4>News App</h4>
-                        <p>
-                            Built a fast and intuitive news app delivering top
-                            stories from The New York Times, with offline
-                            reading, category browsing, and a seamless user
-                            experience.
-                        </p>
-                        <!-- <p>A sleek, fast, and user-friendly mobile app that
-                            delivers the latest news directly from The New York
-                            Times. Designed for convenience, the app allows
-                            users to browse top stories, explore various
-                            categories, and save articles for offline reading —
-                            ensuring they stay updated even without an internet
-                            connection.</p> -->
-                        <div class="social-media">
-                            <a
-                                href="https://github.com/EngAhmadNajeeb/news_app"
-                                target="_blank"><i
-                                    class='bx bxl-github'></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-box">
-                    <img src="Assets/Football.png" alt>
-                    <div class="portfolio-layer">
-                        <h4>Football</h4>
-                        <p>
-                            Developed a real-time football app providing match
-                            schedules, live results, and team lineups using
-                            Football API v3 — keeping fans instantly updated
-                            with fast, accurate data.
-                        </p>
-                        <!-- <p>A dynamic mobile app delivering the latest football
-                            matches, complete with detailed team lineups, match
-                            schedules, and results — all powered by real-time
-                            data from Football API (v3). Designed for football
-                            enthusiasts, the app ensures users stay updated with
-                            accurate, fast-loading information about their
-                            favorite teams and leagues.</p> -->
-                        <div class="social-media">
-                            <a
-                                href="https://github.com/EngAhmadNajeeb/football_flutter"
-                                target="_blank"><i
-                                    class='bx bxl-github'></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-box">
-                    <img src="Assets/Dawam.png" alt>
-                    <div class="portfolio-layer">
-                        <h4>Dawam</h4>
-                        <!-- <p>A smart mobile application designed to help you track
-                            your daily working hours effortlessly. With Dawam,
-                            you can log your check-ins and check-outs at work,
-                            calculate total daily hours, and store the data
-                            locally on your device. The app generates monthly
-                            reports showing total hours worked and remaining
-                            hours to complete your monthly target. Additionally,
-                            Dawam includes a salary calculator based on your
-                            actual working hours — making it an all-in-one
-                            productivity tool for personal time management.</p> -->
-                        <p>Developed a smart mobile app for tracking daily
-                            working hours, generating monthly reports, and
-                            calculating salary based on actual time logged — all
-                            stored locally for personal productivity.</p>
-                        <div class="social-media">
-                            <a
-                                href="https://github.com/EngAhmadNajeeb/dawam"
-                                target="_blank"><i
-                                    class='bx bxl-github'></i></a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <script
-            src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <script src="Site.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
