@@ -1,4 +1,4 @@
-# 🚀 Ahmad Najeeb - Portfolio
+# 🚀 Ahmad Najib - Portfolio
 
 Welcome to my personal portfolio website! 🎯
 
@@ -21,7 +21,7 @@ I'm a **Software Engineer** based in **Dubai**, passionate about delivering scal
 
 ## 📲 Connect with Me
 - **GitHub**: [@EngAhmadNajeeb](https://github.com/EngAhmadNajeeb)
-- **LinkedIn**: [Ahmad Najeeb](https://www.linkedin.com/in/eng-ahmad-najib/)
+- **LinkedIn**: [Ahmad Najib](https://www.linkedin.com/in/eng-ahmad-najib/)
 - **Email**: ahmad.najeeb89@gmail.com
 
 Thank you for visiting my portfolio website! I hope you enjoy exploring it as much as I enjoyed creating it.
@@ -30,5 +30,5 @@ Thank you for visiting my portfolio website! I hope you enjoy exploring it as mu
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-Made with ❤️ by **Ahmad Najeeb**
+Made with ❤️ by **Ahmad Najib**
 
